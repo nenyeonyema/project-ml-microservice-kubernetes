@@ -30,7 +30,7 @@ python3 -m virtualenv --python=<path-to-Python3.7> .devops
 source .devops/bin/activate
 ```
 * Run `make install` to install the necessary dependencies.
-* Run `make lint` to lint the Makefile directory.
+* Run `make lint` to lint Makefile.
 * Run `hadolint Dockerfile` to lint the Dockerfile.
 
 ### Running `app.py` This is application file
